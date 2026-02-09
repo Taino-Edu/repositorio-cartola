@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+backend/venv/
+backend/.venv/
+
+# ===== Node / Next =====
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+dist/
+build/
+coverage/
+
+# ===== Env / Secrets =====
+.env
+.env.*
+*.local
+
+# ===== DB / Data (SQLite) =====
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# ===== IDE =====
+.vscode/
+.idea/
+.DS_Store
